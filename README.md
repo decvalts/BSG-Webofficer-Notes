@@ -1,4 +1,4 @@
-# BSG-Webofficer-Notes
+# BSG Webofficer Notes
 Notes for maintaining the Drupal-based BSG site.
 
 It is good to get an idea of the Drupal terminology and how it puts websites together through the introductory notes here:
