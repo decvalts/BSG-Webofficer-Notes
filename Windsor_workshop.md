@@ -13,6 +13,8 @@ When you or the Windsor Workshop Officer are ready, open the page in Edit mode a
 
 **Note: This apply button is only visible to users with the Postgraduate membership type.** You will not see it even as a Site Admin (unless you also happen to be a postgrad), but you can check using the Postagrad Test Account.
 
+![windsor activate](images/windsor_activate.png)
+
 ## Windsor workshop (product)
 
 A Drupal module called `ubercart` is used to manage the pricing and checkout of the bookings. To edit the pricing of the Workshop Booking, from the Admin Panel, go to `Store > Products` and the click 'Booking for Windsor Workshop' under the list of ubercart products. Click edit to be able to change the price. All of the price boxes (List Price, Sell Price, etc.) should be set to the same value. The product should be marked as 'Shippable' to enable us to collect attendees' addresses.
@@ -20,6 +22,8 @@ A Drupal module called `ubercart` is used to manage the pricing and checkout of 
 ### Managing stock levels
 
 You can set how many products (Here: bookings) are available to purchase via the 'Stock' widget. This accessed by clicking the 'Stock' button that appears in the top right hand corner when you are viewing the Windsor Workshop (product) in Edit mode. You can set the total stock level and a threshold level, which is used to notify an email address when this threshold is reached.
+
+![windsor stock](images/windsor_stock.png)
 
 **Note:** There is a known limitation in the ubercart product system that currently allows you to go below the minimum stock level and still carry on selling the product! I.e. once stock has reached zero, it will still be available to purchase. Use the email notification to manually keep track of stock levels and manually disable workshop bookings when a critical level has been reached.
 
